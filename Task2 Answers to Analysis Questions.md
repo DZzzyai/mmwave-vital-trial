@@ -34,7 +34,7 @@ Sliding‑window estimations may produce sporadic sharp jump outliers caused by 
 
 ---
 
-# Short written analysis (Task2, ≤1 page)
+# Short written analysis
 ## Implemented Methods
 Four classical signal‑processing methods are implemented for heart‑rate(HR) and respiratory‑rate(RR) extraction from mm‑wave radar phase‑displacement signal:
 1. Band‑pass filtering + Welch‑FFT peak‑picking (baseline)
