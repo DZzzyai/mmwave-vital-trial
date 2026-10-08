@@ -32,21 +32,21 @@ Additional engineering features:
 > Ground truth contains synchronized ECG / PPG / respiration reference and per‑sample HR/RR labels.
 
 ## Project folder structure
-├─ code/
-│   └─ task2_classical.py   # Task2 main python script
-├─ data/
-│   ├─ Raw_1.xlsx
-│   ├─ Raw_2.xlsx
-│   ├─ Ground_1.xlsx
-│   └─ Ground_2.xlsx
-├─ outputs/          # auto‑generated output directory
-│   ├─ metrics_result.csv         # aggregated evaluation metrics
-│   ├─ window_estimates_*.csv      # per‑sliding‑window estimation results
-│   ├─ simulation_result.csv      # synthetic simulation test results
-│   └─ *.png figures               # time‑series, PSD, HR error plots
-├─ Task1_literature_table_and_summary.pdf            # Task‑1 literature survey template
-├─ requirements.txt
-└─ .gitignore
+  ├─ code/
+  │   └─ task2_classical.py   # Task2 main python script
+  ├─ data/
+  │   ├─ Raw_1.xlsx
+  │   ├─ Raw_2.xlsx
+  │   ├─ Ground_1.xlsx
+  │   └─ Ground_2.xlsx
+  ├─ outputs/          # auto‑generated output directory
+  │   ├─ metrics_result.csv         # aggregated evaluation metrics
+  │   ├─ window_estimates_*.csv      # per‑sliding‑window estimation results
+  │   ├─ simulation_result.csv      # synthetic simulation test results
+  │   └─ *.png figures               # time‑series, PSD, HR error plots
+  ├─ Task1_literature_table_and_summary.pdf            # Task‑1 literature survey template
+  ├─ requirements.txt
+  └─ .gitignore
 
 
 ## Environment setup
